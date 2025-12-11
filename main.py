@@ -11,7 +11,7 @@ from dotenv import load_dotenv
 import wikipedia
 wikipedia.set_lang("uz")
 load_dotenv()
-API = os.getenv("API")
+TOKEN = os.getenv("API")
 dp = Dispatcher()
 
 
